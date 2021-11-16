@@ -1,0 +1,111 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "address": "5564 Berge Squares North Hughview, Rhode Island 91995"
+        },
+        {
+            "id": 2,
+            "address": "637 Cole Circles West Harry, Wisconsin 22647"
+        },
+        {
+            "id": 3,
+            "address": "828 Stoltenberg Keys Schinnerchester, New York 46873"
+        },
+        {
+            "id": 4,
+            "address": "704 Funk Square South Jedidiah, Michigan 35950"
+        },
+        {
+            "id": 5,
+            "address": "1879 Nienow Road Schmitthaven, Florida 62320"
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "type": "Caramel"
+        },
+        {
+            "id": 2,
+            "type": "Chocolate"
+        },
+        {
+            "id": 3,
+            "type": "Gummy"
+        },
+        {
+            "id": 4,
+            "type": "Hard Candy"
+        },
+        {
+            "id": 5,
+            "type": "Licorice"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "productTypeId": 3,
+            "name": "Gummy Bears",
+            "price": 3.79
+        },
+        {
+            "id": 2,
+            "productTypeId": 2,
+            "name": "Hershey's Bars",
+            "price": 2.10
+        },
+        {
+            "id": 3,
+            "productTypeId": 4,
+            "name": "Jolly Ranchers",
+            "price": 3.57
+        },
+        {
+            "id": 4,
+            "productTypeId": 5,
+            "name": "Twizzlers",
+            "price": 3.79
+        },
+        {
+            "id": 5,
+            "productTypeId": 2,
+            "name": "Butterfingers",
+            "price": 2.22
+        },
+        {
+            "id": 6,
+            "productTypeId": 1,
+            "name": "Caramel Creams",
+            "price": 2.99
+        },
+        {
+            "id": 7,
+            "productTypeId": 3,
+            "name": "Trollis",
+            "price": 3.99
+        },
+        {
+            "id": 8,
+            "productTypeId": 2,
+            "name": "Reese's",
+            "price": 3.79
+        },
+        {
+            "id": 9,
+            "productTypeId": 2,
+            "name": "Snickers",
+            "price": 2.10
+        },
+        {
+            "id": 10,
+            "productTypeId": 4,
+            "name": "Life Savers",
+            "price": 2.43
+        }
+    ],
+    "employees": [],
+    "customers": [],
+    "purchases": []
+}
