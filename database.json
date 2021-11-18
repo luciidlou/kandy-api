@@ -2,23 +2,110 @@
   "locations": [
     {
       "id": 1,
-      "address": "5564 Berge Squares North Hughview, Rhode Island 91995"
+      "streetAddress": "5564 Berge Squares Lane",
+      "cityState": "North Hughview, Rhode Island 91995",
+      "name": "North Hughview"
     },
     {
       "id": 2,
-      "address": "637 Cole Circles West Harry, Wisconsin 22647"
+      "streetAddress": "637 Cole Circles Avenue",
+      "cityState": "West Harry, Wisconsin 22647",
+      "name": "West Harry"
     },
     {
       "id": 3,
-      "address": "828 Stoltenberg Keys Schinnerchester, New York 46873"
+      "streetAddress": "828 Stoltenberg Keys Road",
+      "cityState": "Schinnerchester, New York 46873",
+      "name": "Schinnerchester"
     },
     {
       "id": 4,
-      "address": "704 Funk Square South Jedidiah, Michigan 35950"
+      "streetAddress": "704 Funk Square Avenue",
+      "cityState": "South Jedidiah, Michigan 35950",
+      "name": "South Jedidiah"
     },
     {
       "id": 5,
-      "address": "1879 Nienow Road Schmitthaven, Florida 62320"
+      "streetAddress": "1879 Nienow Road",
+      "cityState": "Schmitthaven, Florida 62320",
+      "name": "Schmitthaven"
+    }
+  ],
+  "productLocations": [
+    {
+      "id": 1,
+      "locationId": 1,
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "locationId": 1,
+      "productId": 3
+    },
+    {
+      "id": 3,
+      "locationId": 1,
+      "productId": 7
+    },
+    {
+      "id": 4,
+      "locationId": 2,
+      "productId": 2
+    },
+    {
+      "id": 4,
+      "locationId": 2,
+      "productId": 6
+    },
+    {
+      "id": 4,
+      "locationId": 2,
+      "productId": 9
+    },
+    {
+      "id": 5,
+      "locationId": 3,
+      "productId": 10
+    },
+    {
+      "id": 6,
+      "locationId": 3,
+      "productId": 4
+    },
+    {
+      "id": 7,
+      "locationId": 3,
+      "productId": 1
+    },
+    {
+      "id": 8,
+      "locationId": 4,
+      "productId": 8
+    },
+    {
+      "id": 9,
+      "locationId": 4,
+      "productId": 3
+    },
+    {
+      "id": 10,
+      "locationId": 4,
+      "productId": 1
+    },
+    {
+      "id": 11,
+      "locationId": 5,
+      "productId": 1
+    },
+    {
+      "id": 12,
+      "locationId": 5,
+      "productId": 7
+    },
+    {
+      "id": 12,
+      "locationId": 5,
+      "productId": 5
     }
   ],
   "productTypes": [
@@ -132,18 +219,12 @@
     }
   ],
   "customers": [
-      {
-          "id": 1,
-          "name": "Dakota Auer"
-      },
-      {
-          "id": 2,
-          "name": "Golden Bayer"
-      },
-      {
-          "id": 3,
-          "name": "Hanna Wiegand"
-      }
+    {
+      "name": "Bob Bobberson",
+      "address": "404 Unknown Lane",
+      "email": "bob@bobberson.com",
+      "id": 1
+    }
   ],
   "purchases": []
 }
