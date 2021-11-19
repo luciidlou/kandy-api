@@ -103,7 +103,7 @@
       "productId": 7
     },
     {
-      "id": 12,
+      "id": 13,
       "locationId": 5,
       "productId": 5
     }
@@ -194,28 +194,36 @@
   ],
   "employees": [
     {
-      "id": 1,
-      "name": "Cleta Parker",
-      "locationId": 3,
+      "name": "Timmy Tuner",
+      "locationid": 3,
       "manager": true,
       "fullTime": true,
-      "hourlyRate": 19.65
+      "hourlyRate": "21.25",
+      "id": 2
     },
     {
-      "id": 2,
-      "name": "Charlotte Mayert",
-      "locationId": 3,
+      "name": "Charlie Kelly",
+      "locationid": 1,
       "manager": false,
-      "fullTime": false,
-      "hourlyRate": 14.15
-    },
-    {
-      "name": "Chet Baker",
-      "locationid": 5,
-      "manager": false,
-      "fullTime": false,
-      "hourlyRate": "19.25",
+      "fullTime": true,
+      "hourlyRate": "17.75",
       "id": 3
+    },
+    {
+      "name": "James Brown",
+      "locationid": 1,
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": 0,
+      "id": 4
+    },
+    {
+      "name": "Sally Sitwell",
+      "locationid": 3,
+      "manager": false,
+      "fullTime": true,
+      "hourlyRate": "15.25",
+      "id": 5
     }
   ],
   "customers": [
@@ -226,5 +234,14 @@
       "id": 1
     }
   ],
-  "purchases": []
+  "purchases": [
+    {
+      "customerId": 1,
+      "productLocationId": 13,
+      "quantity": 10,
+      "datePurchased": "11/19/2021",
+      "total": 22.200000000000003,
+      "id": 1
+    }
+  ]
 }
