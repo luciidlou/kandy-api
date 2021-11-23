@@ -250,6 +250,12 @@
       "address": "365 Paddy's Circle",
       "email": "liam@mcpoyle.com",
       "id": 4
+    },
+    {
+      "name": "Lisbeth Salander",
+      "address": "6245 Roundtable Lane",
+      "email": "lisbeth@salander.com",
+      "id": 5
     }
   ],
   "purchases": [
@@ -380,6 +386,102 @@
       "datePurchased": "11/22/2021",
       "total": 37.9,
       "id": 19
+    },
+    {
+      "customerId": 5,
+      "productLocationId": 8,
+      "quantity": 20,
+      "datePurchased": "11/23/2021",
+      "total": 75.8,
+      "id": 20
+    },
+    {
+      "customerId": 5,
+      "productLocationId": 4,
+      "quantity": 10,
+      "datePurchased": "11/23/2021",
+      "total": 21,
+      "id": 21
+    },
+    {
+      "customerId": 5,
+      "productLocationId": 5,
+      "quantity": 22,
+      "datePurchased": "11/23/2021",
+      "total": 65.78,
+      "id": 22
+    },
+    {
+      "customerId": 5,
+      "productLocationId": 10,
+      "quantity": 20,
+      "datePurchased": "11/23/2021",
+      "total": 75.8,
+      "id": 23
+    },
+    {
+      "customerId": 5,
+      "productLocationId": 12,
+      "quantity": 15,
+      "datePurchased": "11/23/2021",
+      "total": 56.85,
+      "id": 24
+    },
+    {
+      "customerId": 5,
+      "productLocationId": 7,
+      "quantity": 20,
+      "datePurchased": "11/23/2021",
+      "total": 48.6,
+      "id": 25
+    },
+    {
+      "customerId": 5,
+      "productLocationId": 3,
+      "quantity": 15,
+      "datePurchased": "11/23/2021",
+      "total": 59.85,
+      "id": 26
+    },
+    {
+      "customerId": 5,
+      "productLocationId": 15,
+      "quantity": 50,
+      "datePurchased": "11/23/2021",
+      "total": 111.00000000000001,
+      "id": 27
+    },
+    {
+      "customerId": 5,
+      "productLocationId": 1,
+      "quantity": 10,
+      "datePurchased": "11/23/2021",
+      "total": 37.9,
+      "id": 28
+    },
+    {
+      "customerId": 5,
+      "productLocationId": 2,
+      "quantity": 1,
+      "datePurchased": "11/23/2021",
+      "total": 3.57,
+      "id": 29
+    },
+    {
+      "customerId": 5,
+      "productLocationId": 10,
+      "quantity": 50,
+      "datePurchased": "11/23/2021",
+      "total": 189.5,
+      "id": 30
+    },
+    {
+      "customerId": 5,
+      "productLocationId": 2,
+      "quantity": 150,
+      "datePurchased": "11/23/2021",
+      "total": 535.5,
+      "id": 31
     }
   ]
 }
