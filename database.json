@@ -53,57 +53,57 @@
       "productId": 2
     },
     {
-      "id": 4,
+      "id": 5,
       "locationId": 2,
       "productId": 6
     },
     {
-      "id": 4,
+      "id": 6,
       "locationId": 2,
       "productId": 9
     },
     {
-      "id": 5,
+      "id": 7,
       "locationId": 3,
       "productId": 10
     },
     {
-      "id": 6,
+      "id": 8,
       "locationId": 3,
       "productId": 4
     },
     {
-      "id": 7,
+      "id": 9,
       "locationId": 3,
       "productId": 1
     },
     {
-      "id": 8,
+      "id": 10,
       "locationId": 4,
       "productId": 8
     },
     {
-      "id": 9,
+      "id": 11,
       "locationId": 4,
       "productId": 3
     },
     {
-      "id": 10,
+      "id": 12,
       "locationId": 4,
       "productId": 1
     },
     {
-      "id": 11,
+      "id": 13,
       "locationId": 5,
       "productId": 1
     },
     {
-      "id": 12,
+      "id": 14,
       "locationId": 5,
       "productId": 7
     },
     {
-      "id": 13,
+      "id": 15,
       "locationId": 5,
       "productId": 5
     }
@@ -202,28 +202,28 @@
       "id": 2
     },
     {
-      "name": "Charlie Kelly",
-      "locationid": 1,
-      "manager": false,
+      "name": "Roger Rabbit",
+      "locationid": 4,
+      "manager": true,
       "fullTime": true,
-      "hourlyRate": "17.75",
-      "id": 3
+      "hourlyRate": "25.75",
+      "id": 6
     },
     {
-      "name": "James Brown",
+      "name": "George Micheal",
+      "locationid": 4,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": "21.5",
+      "id": 7
+    },
+    {
+      "name": "Jimmy Neutron",
       "locationid": 1,
       "manager": false,
       "fullTime": false,
-      "hourlyRate": 0,
-      "id": 4
-    },
-    {
-      "name": "Sally Sitwell",
-      "locationid": 3,
-      "manager": false,
-      "fullTime": true,
-      "hourlyRate": "15.25",
-      "id": 5
+      "hourlyRate": "15.75",
+      "id": 8
     }
   ],
   "customers": [
@@ -232,6 +232,24 @@
       "address": "404 Unknown Lane",
       "email": "bob@bobberson.com",
       "id": 1
+    },
+    {
+      "name": "Dale Dobak",
+      "address": "2209 Huckleberry Lane",
+      "email": "dale@dobak.com",
+      "id": 2
+    },
+    {
+      "name": "Ronald McDonald",
+      "address": "645 Processed Avenue",
+      "email": "ronald@mcdonald.com",
+      "id": 3
+    },
+    {
+      "name": "Liam McPoyle",
+      "address": "365 Paddy's Circle",
+      "email": "liam@mcpoyle.com",
+      "id": 4
     }
   ],
   "purchases": [
@@ -242,6 +260,126 @@
       "datePurchased": "11/19/2021",
       "total": 22.200000000000003,
       "id": 1
+    },
+    {
+      "customerId": 1,
+      "productLocationId": 11,
+      "quantity": 6,
+      "datePurchased": "11/22/2021",
+      "total": 22.740000000000002,
+      "id": 2
+    },
+    {
+      "customerId": 1,
+      "productLocationId": 2,
+      "quantity": 6,
+      "datePurchased": "11/22/2021",
+      "total": 21.419999999999998,
+      "id": 3
+    },
+    {
+      "customerId": 1,
+      "productLocationId": 13,
+      "quantity": 10,
+      "datePurchased": "11/22/2021",
+      "total": 22.200000000000003,
+      "id": 4
+    },
+    {
+      "customerId": 2,
+      "productLocationId": 12,
+      "quantity": 5,
+      "datePurchased": "11/22/2021",
+      "total": 19.950000000000003,
+      "id": 5
+    },
+    {
+      "customerId": 2,
+      "productLocationId": 6,
+      "quantity": 10,
+      "datePurchased": "11/22/2021",
+      "total": 21,
+      "id": 9
+    },
+    {
+      "customerId": 2,
+      "productLocationId": 2,
+      "quantity": 6,
+      "datePurchased": "11/22/2021",
+      "total": 21.419999999999998,
+      "id": 10
+    },
+    {
+      "customerId": 2,
+      "productLocationId": 15,
+      "quantity": 1000,
+      "datePurchased": "11/22/2021",
+      "total": 2220,
+      "id": 11
+    },
+    {
+      "customerId": 3,
+      "productLocationId": 5,
+      "quantity": 10,
+      "datePurchased": "11/22/2021",
+      "total": 29.900000000000002,
+      "id": 12
+    },
+    {
+      "customerId": 3,
+      "productLocationId": 10,
+      "quantity": 15,
+      "datePurchased": "11/22/2021",
+      "total": 56.85,
+      "id": 13
+    },
+    {
+      "customerId": 3,
+      "productLocationId": 14,
+      "quantity": 10,
+      "datePurchased": "11/22/2021",
+      "total": 39.900000000000006,
+      "id": 14
+    },
+    {
+      "customerId": 3,
+      "productLocationId": 9,
+      "quantity": 8,
+      "datePurchased": "11/22/2021",
+      "total": 30.32,
+      "id": 15
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 8,
+      "quantity": 14,
+      "datePurchased": "11/22/2021",
+      "total": 53.06,
+      "id": 16
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 9,
+      "quantity": 10600,
+      "datePurchased": "11/22/2021",
+      "total": 40174,
+      "id": 17
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 5,
+      "quantity": 250,
+      "datePurchased": "11/22/2021",
+      "total": 747.5,
+      "id": 18
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 9,
+      "quantity": 10,
+      "datePurchased": "11/22/2021",
+      "total": 37.9,
+      "id": 19
     }
   ]
 }
